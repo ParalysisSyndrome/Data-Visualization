@@ -1,0 +1,86 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>76ers Game Log</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.2.3.min.js" integrity="sha384-98GDGJ0kOMCUMUePhksaQ/GYgB3+NH9h996V88sh3aOiUNX3N+fLXAtry6xctSZ6" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="d22dac22-3f71-47ba-9486-0bac629ada9e" data-root-id="8843"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="9500">
+          {"18f2b4e0-4cbc-4454-b894-1e6bf8176272":{"roots":{"references":[{"attributes":{"children":[{"id":"8842"},{"id":"8841"}]},"id":"8843","type":"Column"},{"attributes":{"data_source":{"id":"8684"},"glyph":{"id":"8769"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"8770"},"selection_glyph":null,"view":{"id":"8772"}},"id":"8771","type":"GlyphRenderer"},{"attributes":{"axis":{"id":"8695"},"ticker":null},"id":"8698","type":"Grid"},{"attributes":{"axis":{"id":"8724"},"ticker":null},"id":"8727","type":"Grid"},{"attributes":{"children":[[{"id":"8686"},0,0],[{"id":"8715"},0,1],[{"id":"8744"},1,0],[{"id":"8773"},1,1]]},"id":"8838","type":"GridBox"},{"attributes":{"fill_color":{"field":"winLoss","transform":{"id":"8685"}},"line_color":{"field":"winLoss","transform":{"id":"8685"}},"top":{"field":"teamAST"},"width":{"value":0.9},"x":{"field":"game_num"}},"id":"8740","type":"VBar"},{"attributes":{},"id":"8832","type":"BasicTickFormatter"},{"attributes":{"text":""},"id":"8812","type":"Title"},{"attributes":{},"id":"8689","type":"DataRange1d"},{"attributes":{"text":""},"id":"8821","type":"Title"},{"attributes":{"toolbars":[{"id":"8706"},{"id":"8735"},{"id":"8764"},{"id":"8793"}],"tools":[{"id":"8703"},{"id":"8704"},{"id":"8705"},{"id":"8732"},{"id":"8733"},{"id":"8734"},{"id":"8761"},{"id":"8762"},{"id":"8763"},{"id":"8790"},{"id":"8791"},{"id":"8792"}]},"id":"8839","type":"ProxyToolbar"},{"attributes":{},"id":"8722","type":"LinearScale"},{"attributes":{"children":[{"id":"8840"},{"id":"8838"}]},"id":"8841","type":"Column"},{"attributes":{},"id":"8823","type":"BasicTickFormatter"},{"attributes":{"formatter":{"id":"8816"},"ticker":{"id":"8725"}},"id":"8724","type":"LinearAxis"},{"attributes":{},"id":"8816","type":"BasicTickFormatter"},{"attributes":{},"id":"8834","type":"BasicTickFormatter"},{"attributes":{},"id":"8814","type":"BasicTickFormatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"winLoss","transform":{"id":"8685"}},"line_alpha":{"value":0.1},"line_color":{"field":"winLoss","transform":{"id":"8685"}},"top":{"field":"teamTO"},"width":{"value":0.9},"x":{"field":"game_num"}},"id":"8799","type":"VBar"},{"attributes":{},"id":"8734","type":"SaveTool"},{"attributes":{},"id":"8807","type":"BasicTickFormatter"},{"attributes":{"below":[{"id":"8695"}],"center":[{"id":"8698"},{"id":"8702"}],"left":[{"id":"8699"}],"plot_height":200,"plot_width":400,"renderers":[{"id":"8713"}],"title":{"id":"8803"},"toolbar":{"id":"8706"},"toolbar_location":null,"x_range":{"id":"8774"},"x_scale":{"id":"8691"},"y_range":{"id":"8689"},"y_scale":{"id":"8693"}},"id":"8686","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"8805","type":"BasicTickFormatter"},{"attributes":{"toolbar":{"id":"8839"},"toolbar_location":"above"},"id":"8840","type":"ToolbarBox"},{"attributes":{"formatter":{"id":"8807"},"ticker":{"id":"8696"}},"id":"8695","type":"LinearAxis"},{"attributes":{},"id":"8809","type":"Selection"},{"attributes":{"text":""},"id":"8803","type":"Title"},{"attributes":{"below":[{"id":"8753"}],"center":[{"id":"8756"},{"id":"8760"}],"left":[{"id":"8757"}],"plot_height":200,"plot_width":400,"renderers":[{"id":"8771"}],"title":{"id":"8821"},"toolbar":{"id":"8764"},"toolbar_location":null,"x_range":{"id":"8774"},"x_scale":{"id":"8749"},"y_range":{"id":"8747"},"y_scale":{"id":"8751"}},"id":"8744","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"8693","type":"LinearScale"},{"attributes":{"dimensions":"width"},"id":"8732","type":"PanTool"},{"attributes":{"source":{"id":"8684"}},"id":"8743","type":"CDSView"},{"attributes":{},"id":"8825","type":"BasicTickFormatter"},{"attributes":{"factors":["W","L"],"palette":["green","red"]},"id":"8685","type":"CategoricalColorMapper"},{"attributes":{"below":[{"id":"8782"}],"center":[{"id":"8785"},{"id":"8789"}],"left":[{"id":"8786"}],"plot_height":200,"plot_width":400,"renderers":[{"id":"8800"}],"title":{"id":"8830"},"toolbar":{"id":"8793"},"toolbar_location":null,"x_range":{"id":"8774"},"x_scale":{"id":"8778"},"y_range":{"id":"8776"},"y_scale":{"id":"8780"}},"id":"8773","subtype":"Figure","type":"Plot"},{"attributes":{"axis":{"id":"8786"},"dimension":1,"ticker":null},"id":"8789","type":"Grid"},{"attributes":{},"id":"8808","type":"UnionRenderers"},{"attributes":{"below":[{"id":"8724"}],"center":[{"id":"8727"},{"id":"8731"}],"left":[{"id":"8728"}],"plot_height":200,"plot_width":400,"renderers":[{"id":"8742"}],"title":{"id":"8812"},"toolbar":{"id":"8735"},"toolbar_location":null,"x_range":{"id":"8774"},"x_scale":{"id":"8720"},"y_range":{"id":"8718"},"y_scale":{"id":"8722"}},"id":"8715","subtype":"Figure","type":"Plot"},{"attributes":{"text":""},"id":"8830","type":"Title"},{"attributes":{},"id":"8733","type":"ResetTool"},{"attributes":{"source":{"id":"8684"}},"id":"8714","type":"CDSView"},{"attributes":{},"id":"8762","type":"ResetTool"},{"attributes":{"data":{"game_num":{"__ndarray__":"AQAAAAIAAAADAAAABAAAAAUAAAAGAAAABwAAAAgAAAAJAAAACgAAAAsAAAAMAAAADQAAAA4AAAAPAAAAEAAAABEAAAASAAAAEwAAABQAAAAVAAAAFgAAABcAAAAYAAAAGQAAABoAAAAbAAAAHAAAAB0AAAAeAAAAHwAAACAAAAAhAAAAIgAAACMAAAAkAAAAJQAAACYAAAAnAAAAKAAAACkAAAAqAAAAKwAAACwAAAAtAAAALgAAAC8AAAAwAAAAMQAAADIAAAAzAAAANAAAADUAAAA2AAAANwAAADgAAAA5AAAAOgAAADsAAAA8AAAAPQAAAD4AAAA/AAAAQAAAAEEAAABCAAAAQwAAAEQAAABFAAAARgAAAEcAAABIAAAASQAAAEoAAABLAAAATAAAAE0AAABOAAAATwAAAFAAAABRAAAAUgAAAA==","dtype":"int32","order":"little","shape":[82]},"gmDate":{"__ndarray__":"AADAeczydUIAAEBFcfN1QgAAAKvD83VCAACAdmj0dUIAAABCDfV1QgAAQHME9nVCAADAPqn2dUIAAEAKTvd1QgAAwNXy93VCAADAbDz5dUIAAEA44fl1QgAAwAOG+nVCAABAzyr7dUIAAMCaz/t1QgAAAMzG/HVCAACAl2v9dUIAAABjEP51QgAAQJQH/3VCAADAX6z/dUIAAEArUQB2QgAAAJGjAHZCAACAXEgBdkIAAAAo7QF2QgAAQFnkAnZCAADAJIkDdkIAAICK2wN2QgAAAFaABHZCAABAh3cFdkIAAIC4bgZ2QgAAQB7BBnZCAADA6WUHdkIAAEC1Cgh2QgAAwICvCHZCAAAAsqYJdkIAAIB9Swp2QgAAQOOdCnZCAACAFJULdkIAAADgOQx2QgAAgEIoDnZCAACA2XEPdkIAAMAKaRB2QgAAQNYNEXZCAADAobIRdkIAAEBtVxJ2QgAAwDj8EnZCAABABKETdkIAAABq8xN2QgAAgDWYFHZCAAAAAT0VdkIAAMBmjxV2QgAAAJiGFnZCAABAyX0XdkIAAAAv0Bd2QgAAgPp0GHZCAAAAxhkZdkIAAAD0rBt2QgAAgL9RHHZCAABAJaQcdkIAAMDwSB12QgAAQLztHXZCAAAAIkAedkIAAIDt5B52QgAAALmJH3ZCAACAhC4gdkIAAMC1JSF2QgAAQIHKIXZCAADATG8idkIAAICywSJ2QgAAwOO4I3ZCAABAr10kdkIAAAAVsCR2QgAAgOBUJXZCAAAArPkldkIAAIB3niZ2QgAAAENDJ3ZCAACADugndkIAAADajCh2QgAAwD/fKHZCAABAC4QpdkIAAMDWKCp2QgAAQKLNKnZCAAAACCArdkI=","dtype":"float64","order":"little","shape":[82]},"index":[10,39,52,80,113,160,188,213,241,310,332,362,398,426,461,487,509,555,581,609,626,659,681,725,758,776,800,841,886,901,933,958,990,1038,1070,1086,1109,1137,1227,1275,1324,1355,1378,1407,1442,1468,1480,1510,1541,1552,1603,1633,1653,1681,1707,1734,1765,1788,1814,1842,1851,1890,1910,1942,1994,2007,2040,2057,2101,2129,2144,2175,2209,2235,2258,2284,2313,2336,2365,2395,2426,2453],"opptPTS":[120,102,128,86,105,110,107,109,110,97,109,135,105,109,124,86,81,111,113,113,108,103,115,107,105,131,112,119,117,101,114,102,98,114,102,110,106,78,114,111,80,94,105,101,78,122,107,116,97,100,102,82,98,92,102,115,105,109,102,97,99,118,114,108,97,101,110,116,94,105,98,108,104,101,91,102,95,108,130,97,113,95],"teamAST":[25,20,18,25,29,25,27,36,34,23,23,30,27,27,28,20,23,35,15,23,24,27,23,29,31,26,32,35,30,21,27,19,21,28,34,24,23,29,20,22,18,32,21,31,23,19,22,17,28,21,27,26,32,27,25,25,31,24,25,22,27,26,35,28,33,24,29,30,30,32,30,33,35,34,34,36,28,32,35,32,29,35],"teamPTS":[115,92,94,97,104,112,115,119,121,104,108,114,109,115,116,107,101,130,91,118,97,108,101,104,98,124,118,117,115,95,109,86,105,110,107,123,112,114,103,117,89,116,101,115,97,112,95,108,103,92,115,100,112,108,104,116,116,94,101,108,110,110,128,99,120,98,118,120,108,119,118,120,123,118,101,119,121,115,132,109,121,130],"teamTO":[17,17,20,21,16,14,21,17,20,22,17,20,20,16,12,20,18,11,14,17,19,18,14,18,19,17,26,21,20,20,24,23,15,14,13,21,13,14,19,22,25,18,24,15,10,18,14,8,10,18,17,16,12,19,19,11,14,16,23,10,12,26,14,18,10,21,14,5,16,14,18,16,18,12,15,14,10,13,12,11,18,12],"teamTRB":[48,47,41,49,43,42,48,53,50,56,56,38,51,52,39,55,57,53,53,64,45,47,47,44,39,47,52,50,47,53,40,41,48,37,41,44,45,55,37,48,41,45,48,48,50,40,43,33,39,49,44,58,45,37,60,41,45,43,43,54,46,32,44,46,48,48,53,42,60,38,56,51,54,58,53,44,56,44,45,52,54,57],"winLoss":["L","L","L","W","L","W","W","W","W","W","L","L","W","W","L","W","W","W","L","W","L","W","L","L","L","L","W","L","L","L","L","L","W","L","W","W","W","W","L","W","W","W","L","W","W","L","L","L","W","L","W","W","W","W","W","W","W","L","L","W","W","L","W","L","W","L","W","W","W","W","W","W","W","W","W","W","W","W","W","W","W","W"]},"selected":{"id":"8809"},"selection_policy":{"id":"8808"}},"id":"8684","type":"ColumnDataSource"},{"attributes":{},"id":"8763","type":"SaveTool"},{"attributes":{},"id":"8691","type":"LinearScale"},{"attributes":{},"id":"8696","type":"BasicTicker"},{"attributes":{},"id":"8787","type":"BasicTicker"},{"attributes":{},"id":"8718","type":"DataRange1d"},{"attributes":{},"id":"8791","type":"ResetTool"},{"attributes":{"dimensions":"width"},"id":"8761","type":"PanTool"},{"attributes":{},"id":"8704","type":"ResetTool"},{"attributes":{"data_source":{"id":"8684"},"glyph":{"id":"8711"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"8712"},"selection_glyph":null,"view":{"id":"8714"}},"id":"8713","type":"GlyphRenderer"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"8761"},{"id":"8762"},{"id":"8763"}]},"id":"8764","type":"Toolbar"},{"attributes":{},"id":"8780","type":"LinearScale"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"8703"},{"id":"8704"},{"id":"8705"}]},"id":"8706","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"winLoss","transform":{"id":"8685"}},"line_alpha":{"value":0.1},"line_color":{"field":"winLoss","transform":{"id":"8685"}},"top":{"field":"teamTRB"},"width":{"value":0.9},"x":{"field":"game_num"}},"id":"8770","type":"VBar"},{"attributes":{"formatter":{"id":"8834"},"ticker":{"id":"8783"}},"id":"8782","type":"LinearAxis"},{"attributes":{"axis":{"id":"8728"},"dimension":1,"ticker":null},"id":"8731","type":"Grid"},{"attributes":{"axis":{"id":"8782"},"ticker":null},"id":"8785","type":"Grid"},{"attributes":{},"id":"8749","type":"LinearScale"},{"attributes":{"dimensions":"width"},"id":"8703","type":"PanTool"},{"attributes":{"source":{"id":"8684"}},"id":"8772","type":"CDSView"},{"attributes":{"fill_color":{"field":"winLoss","transform":{"id":"8685"}},"line_color":{"field":"winLoss","transform":{"id":"8685"}},"top":{"field":"teamTRB"},"width":{"value":0.9},"x":{"field":"game_num"}},"id":"8769","type":"VBar"},{"attributes":{"axis_label":"Assists","formatter":{"id":"8814"},"ticker":{"id":"8729"}},"id":"8728","type":"LinearAxis"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"8790"},{"id":"8791"},{"id":"8792"}]},"id":"8793","type":"Toolbar"},{"attributes":{},"id":"8783","type":"BasicTicker"},{"attributes":{},"id":"8705","type":"SaveTool"},{"attributes":{},"id":"8792","type":"SaveTool"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"winLoss","transform":{"id":"8685"}},"line_alpha":{"value":0.1},"line_color":{"field":"winLoss","transform":{"id":"8685"}},"top":{"field":"teamAST"},"width":{"value":0.9},"x":{"field":"game_num"}},"id":"8741","type":"VBar"},{"attributes":{},"id":"8700","type":"BasicTicker"},{"attributes":{},"id":"8729","type":"BasicTicker"},{"attributes":{},"id":"8751","type":"LinearScale"},{"attributes":{"axis":{"id":"8699"},"dimension":1,"ticker":null},"id":"8702","type":"Grid"},{"attributes":{},"id":"8720","type":"LinearScale"},{"attributes":{"source":{"id":"8684"}},"id":"8801","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"winLoss","transform":{"id":"8685"}},"line_alpha":{"value":0.1},"line_color":{"field":"winLoss","transform":{"id":"8685"}},"top":{"field":"teamPTS"},"width":{"value":0.9},"x":{"field":"game_num"}},"id":"8712","type":"VBar"},{"attributes":{"end":10,"start":1},"id":"8774","type":"Range1d"},{"attributes":{"data_source":{"id":"8684"},"glyph":{"id":"8740"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"8741"},"selection_glyph":null,"view":{"id":"8743"}},"id":"8742","type":"GlyphRenderer"},{"attributes":{"dimensions":"width"},"id":"8790","type":"PanTool"},{"attributes":{},"id":"8725","type":"BasicTicker"},{"attributes":{"text":"&lt;h3&gt;Philadelphia 76ers Game Log&lt;/h3&gt;\n&lt;b&gt;&lt;i&gt;2017-18 Regular Season&lt;/i&gt;\n&lt;br&gt;\n&lt;/b&gt;&lt;i&gt;Wins in green, losses in red&lt;/i&gt;\n"},"id":"8842","type":"Div"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"8732"},{"id":"8733"},{"id":"8734"}]},"id":"8735","type":"Toolbar"},{"attributes":{"formatter":{"id":"8825"},"ticker":{"id":"8754"}},"id":"8753","type":"LinearAxis"},{"attributes":{"axis":{"id":"8757"},"dimension":1,"ticker":null},"id":"8760","type":"Grid"},{"attributes":{},"id":"8778","type":"LinearScale"},{"attributes":{"fill_color":{"field":"winLoss","transform":{"id":"8685"}},"line_color":{"field":"winLoss","transform":{"id":"8685"}},"top":{"field":"teamPTS"},"width":{"value":0.9},"x":{"field":"game_num"}},"id":"8711","type":"VBar"},{"attributes":{"data_source":{"id":"8684"},"glyph":{"id":"8798"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"8799"},"selection_glyph":null,"view":{"id":"8801"}},"id":"8800","type":"GlyphRenderer"},{"attributes":{},"id":"8754","type":"BasicTicker"},{"attributes":{"axis_label":"Turnovers","formatter":{"id":"8832"},"ticker":{"id":"8787"}},"id":"8786","type":"LinearAxis"},{"attributes":{"fill_color":{"field":"winLoss","transform":{"id":"8685"}},"line_color":{"field":"winLoss","transform":{"id":"8685"}},"top":{"field":"teamTO"},"width":{"value":0.9},"x":{"field":"game_num"}},"id":"8798","type":"VBar"},{"attributes":{},"id":"8747","type":"DataRange1d"},{"attributes":{"axis_label":"Points","formatter":{"id":"8805"},"ticker":{"id":"8700"}},"id":"8699","type":"LinearAxis"},{"attributes":{},"id":"8758","type":"BasicTicker"},{"attributes":{"axis_label":"Rebounds","formatter":{"id":"8823"},"ticker":{"id":"8758"}},"id":"8757","type":"LinearAxis"},{"attributes":{},"id":"8776","type":"DataRange1d"},{"attributes":{"axis":{"id":"8753"},"ticker":null},"id":"8756","type":"Grid"}],"root_ids":["8843"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('9500').textContent;
+                  var render_items = [{"docid":"18f2b4e0-4cbc-4454-b894-1e6bf8176272","root_ids":["8843"],"roots":{"8843":"d22dac22-3f71-47ba-9486-0bac629ada9e"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
